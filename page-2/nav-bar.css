@@ -1,0 +1,167 @@
+.nav-bar {
+  position: fixed;
+  height: 80px;
+  width: 100%;
+  background-color: #313131;
+  box-shadow: 0px 4px 22px 16px rgba(0, 0, 0, 0.632);
+  z-index: 10;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  overflow: hidden;
+}
+
+.home {
+  text-decoration: none;
+  margin-left: 50px;
+  
+}
+
+.home img {
+  
+  width: 40px;
+  height: auto;
+  filter: invert(80%) sepia(110%) saturate(0%) hue-rotate(0deg) brightness(100%) contrast(100%);
+}
+
+.search {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+.search-logo {
+  width: 25px;
+  margin-left: 5px;
+  filter: invert(48%) sepia(110%) saturate(0%) hue-rotate(0deg) brightness(100%) contrast(100%);
+  margin-top: 3px;
+  margin-left: 7px;
+}
+
+.search-logo:active {
+  opacity: 50%;
+}
+
+.search-bar {
+  opacity: 1;
+  width: 100px;
+  border-style: solid;
+  border-width: 2px;
+  padding: 5px;
+  border-radius: 7px;
+  color: #000000;
+  font-family: 'DM sans', sans-serif;
+  font-size: 15px;
+  transition: 1.7s;
+  opacity: 1;
+}
+
+.search-bar:hover {
+  opacity: 1;
+  transition: 0.5s;
+  width: 150px;
+}
+
+.toggle-button  {
+  margin-right: 50px;
+  background-color: #ffffffe0;
+  border-width: 0;
+  outline: 0;
+  border-radius: 50px;
+  width: 35px;
+  height: 35px;
+  box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0);
+}
+
+.toggle-button img{
+  width: 25px;
+}
+
+.toggle-button:hover {
+  box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.418);
+}
+
+
+.dark-mode .nav-bar,
+.dark-mode .home,
+.dark-mode .role-container {
+    background-color: #313131;
+    color: #AFAFAF;
+}
+
+.dark-mode .role-container {
+    background-color: #282828; 
+}
+
+.light-mode .nav-bar,
+.light-mode .role-container {
+    background-color: #d2d1d1;
+    color: black; 
+    font-weight: 500; 
+}
+
+.light-mode .home {
+  background-color: #ffffff00;
+  color: #000000;
+}
+
+
+.light-mode .home img,
+.light-mode .search-logo {
+  filter: invert(0%) sepia(110%) saturate(0%) hue-rotate(0deg) brightness(100%) contrast(100%);
+}
+
+.light-mode .search-bar, .light-mode input::placeholder 
+{
+  color: #ffffffba;
+  background-color: #000000db;
+}
+
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+ 
+
+  .hero {
+      width: 280px;
+      height: 180px;
+  }
+
+}
+
+/* For devices with a width between 320px and 479px (small smartphones) */
+@media only screen and (min-width: 320px) and (max-width: 479px) {
+  
+  .home{
+    font-size: 20px;
+    margin-left: 15px;
+  }
+
+  .toggle-button {
+    margin-right: 15px;
+    width: 30px;
+    height: 30px;
+  }
+
+  
+}
+
+/* For devices with a width less than 320px (extra small smartphones) */
+@media only screen and (max-width: 319px) 
+{
+  
+
+  .home{
+    font-size: 20px;
+    margin-left: 15px;
+  }
+
+  .toggle-button {
+    margin-right: 15px;
+    width: 30px;
+    height: 30px;
+  }
+
+  
+}
+  

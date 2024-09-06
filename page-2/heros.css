@@ -1,0 +1,385 @@
+.role-button-container {
+  margin-top: 35px;
+  margin-left: 35px;
+  margin-right: 35px;
+  margin-bottom: 35px;
+  padding: 15px;
+  width: 100%;
+  min-height: 100vh;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 40px;
+  justify-content: center;
+  align-items: center;
+
+  box-sizing: border-box;
+  overflow: auto;
+  
+}
+
+
+button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+  outline: 0;
+  border-width: 0;
+
+  border-radius: 20px;
+  width: 150px;
+  height: 350px;
+  overflow: hidden;
+  box-shadow: 0px 2px 9px 3px rgba(0, 0, 0, 0.3);
+}
+
+img {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  object-fit: cover;
+  border: none;
+  width: 200px;
+  height: auto;
+}
+
+button:hover {
+  transform: scale(1.01);
+  box-shadow: 0px 2px 9px 3px rgba(0, 0, 0, .6);
+}
+
+.Gatotkaca {
+  justify-content: flex-end;
+  
+  
+}
+.Gatotkaca span {
+  padding-right: 18px;
+}
+
+.Carmilla {
+  justify-content: flex-end;
+}
+
+.Carmilla span {
+  padding-right: 28px;
+}
+
+.Kaja {
+  justify-content: flex-start;
+}
+
+.Kaja span {
+  padding-left: 53px;
+}
+
+.Lolita {
+  justify-content: flex-end;
+}
+
+.Lolita span {
+  padding-right: 40px;
+}
+
+.Mathilda {
+  justify-content: flex-start;
+}
+
+.Mathilda span {
+  padding-left: 32px;
+}
+
+.Hanabi img{
+  width: 250px;
+}
+
+.Ixia {
+  justify-content: flex-start;
+   
+}
+
+.Ixia span {
+  padding-left: 55px;
+}
+
+.Kimmy {
+  justify-content: flex-start;
+   
+}
+
+.Kimmy span {
+  padding-left: 40px;
+}
+
+.Miya {
+  justify-content: flex-start;
+   
+}
+
+.Miya span {
+  padding-left: 50px;
+}
+
+.Kagura img{
+  width: 250px;
+}
+
+.Odette img{
+  width: 250px;
+}
+
+.Kadita {
+  justify-content: flex-start;
+  
+  
+}
+.Kadita span {
+  padding-left: 41px;
+}
+
+.Popol_and_Kupa span {
+  width: 100px;
+  margin-top: 260px;
+  font-size: 15px;
+  justify-content: center;
+}
+
+.Alpha {
+  justify-content: flex-start;
+  
+  
+}
+.Alpha span {
+  padding-left: 45px;
+}
+
+.Julian {
+  justify-content: flex-start;
+  
+  
+}
+.Julian span {
+  padding-left: 43px;
+}
+
+.Ruby {
+  justify-content: flex-end;
+  
+  
+}
+.Ruby span {
+  padding-right: 44px;
+}
+
+.Paquito {
+  justify-content: flex-start;
+  
+  
+}
+.Paquito span {
+  padding-left: 37px;
+}
+
+.Zilong img {
+  width: 220px;
+}
+
+.Natalia {
+  justify-content: flex-start;
+}
+
+.Natalia span {
+  padding-left: 37px;
+}
+
+.Selena {
+  justify-content: end;
+}
+
+.Selena span {
+  padding-right: 36px;
+}
+
+.Hanzo {
+  justify-content: flex-start;
+}
+
+.Hanzo span {
+  padding-left: 44px;
+}
+
+.Helcurt {
+  justify-content: flex-start;
+}
+
+.Helcurt span {
+  padding-left: 35px;
+}
+
+.Yu_Zhong img {
+  width: 220px;
+}
+
+.box {
+  position: absolute;
+  display: flex;
+  justify-content: end;
+  align-items: end;
+  background-color: black;
+  
+  border-radius: 20px;
+  width: 150px;
+  height: 350px;
+  opacity: 80%;
+  background: linear-gradient(to bottom, #00336607, #000000);
+  z-index: 0;
+  overflow: hidden;
+}
+
+.text {
+  position: absolute;
+  display: flex;
+  justify-content: end;
+  align-items: end;
+  font-family: 'DM sans', sans-serif;
+  font-size: 23px;
+  font-weight: 500;
+  color: white;
+  z-index: 9;
+  margin-top: 260px;
+}
+
+
+
+@media (max-width: 300px) {
+  .role-button-container {
+  padding: 15px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  }
+
+  .role-container {
+    width: 70%;
+    height: 100%;
+  }
+
+  button {
+    width: 110px;
+    height: 40px;
+    border-radius: 10px;
+   }   
+
+   .box {
+    width: 110px;
+    height: 40px;
+    border-radius: 10px;
+    opacity: 90%;
+    background: black;
+   }
+
+   
+   .Alpha span, .Ixia span,
+   .Kimmy span, .Miya span,
+   .Julian span, .Paquito span,
+   .Hanzo span, .Kadita span,
+   .Kaja span{
+    margin-left: -10px;
+   }
+
+   .Popol_and_Kupa span{
+    font-size: 10px;
+    margin-top: 0;
+   }
+
+   .text {
+    text-align: center;
+    font-size: 15px;
+    margin-top: 0px;
+   }
+}
+
+
+@media (min-width: 300px) and (max-width: 857px) {
+  .role-container {
+      width: 90%;
+  }
+  
+  .role-button-container {
+    padding: 15px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  }
+  button {
+    width: 120px;
+    height: 230px;
+  }   
+
+  .box {
+    width: 120px;
+    height: 230px;
+  }
+
+  .hero-name {
+    align-items: start;
+  }
+
+  .hero-name span {
+    margin-top: 185px;
+  }
+
+  .text {
+    font-size: 13px;
+    margin-top: 160px;
+  }
+}
+
+@media (min-width: 857px) and (max-width: 1542px) {
+  .role-container {
+      width: 90%;
+  }
+  
+  .role-button-container {
+      padding: 15px;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+      }
+
+   button {
+    width: 125px;
+    height: 250px;
+   }   
+
+   .box {
+    width: 125px;
+    height: 250px;
+   }
+
+   .text {
+    font-size: 13px;
+    margin-top: 160px;
+   }
+}
+
+@media (min-width:857px) and (max-width: 1165px) {
+  .role-container {
+      width: 90%;
+  }
+
+
+  .role-button-container {
+      padding: 15px;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+      }
+}
+
+
+
+
+
+
+
+
+
+

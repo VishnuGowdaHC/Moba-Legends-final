@@ -1,0 +1,288 @@
+.hero-top {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.hero-bottom {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.hero-img {
+  
+  padding: 0;
+  margin-top: 5px;
+  margin-left:20px;
+  margin-right: 20px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  width: auto;
+  height: 210px;
+  border-radius: 15px;
+  
+  border-color: white;
+  overflow: hidden;
+  box-shadow: 1px 2px 9px 3px rgb(0, 0, 0);
+  border-style: solid;
+}
+
+.hero-img img {
+  
+  width: 150px;
+  height: 250px;
+  object-fit: cover;
+  
+}
+
+.hero-info {
+  
+  padding: 20px;
+  color: white;
+  font-family: 'DM sans', sans-serif;
+
+  width: 90%;
+}
+
+.hero-title {
+  font-size: 50px;
+  font-weight: 600;
+}
+
+.Tank{
+  font-size: 19px;
+  color: rgb(177, 115, 2);
+}
+
+.ability {
+  font-family: 'DM sans', sans-serif;
+  font-weight: 500;
+  color: white;
+  font-size: 35px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+  padding: 0;
+}
+
+
+.bot-line {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.last-line {
+  margin-top: 40px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.text-passive {
+ 
+  display: block;
+  font-family: 'DM sans', sans-serif;
+  font-weight: 400;
+  color: #B8B8B8;
+  font-size: 30px;
+  margin-left: 20px;
+  margin-bottom: 0px;
+}
+
+.passive-info-block {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  
+  margin-top: 0;
+  margin-bottom: 50px; 
+  overflow: hidden;
+}
+
+.passive-img {
+  margin: 20px;
+}
+
+.passive-img img {
+  width: 100px;
+  height: 100px;
+}
+
+.passive-info-container {
+  background-color: #ffffff0f;
+  margin: 20px;
+  border-radius: 15px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgba(255, 255, 255, 0.249);
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  overflow: auto;
+}
+
+p {
+  font-family: 'DM sans', sans-serif;
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin: 10px;
+}
+
+.para {
+  padding: 0;
+  margin: 0;
+}
+
+.passive-name {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.buff {
+  background-color: rgb(0, 174, 255);
+  margin-left: 10px;
+  font-size: 15px;
+  padding:1px 6px;
+  border-radius: 5px;
+}
+
+.buff:empty {
+  display: none;
+}
+
+.AOE {
+  background-color: #FFA800;
+  margin-left: 10px;
+  font-size: 15px;
+  padding:1px 6px;
+  border-radius: 5px;
+}
+
+.AOE:empty {
+  display: none;
+}
+
+
+.CC {
+  background-color: #FE5D5D;
+  margin-left: 10px;
+  font-size: 15px;
+  padding:1px 6px;
+  border-radius: 5px;
+}
+
+.CC:empty {
+  display: none;
+}
+
+
+.Mobility {
+  background-color: #D55FFF;
+  margin-left: 10px;
+  font-size: 15px;
+  padding:1px 6px;
+  border-radius: 5px;
+}
+
+.Mobility:empty {
+  display: none;
+}
+
+.counter-container {
+  margin-bottom: 30px;
+}
+
+.counters-text {
+  font-size: 35px;
+  font-weight: 500;
+}
+
+.weak-counters, .strong-counters{
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  box-sizing: border-box;
+  overflow: auto;
+}
+
+.wimg img {
+  object-fit: cover;
+  width: 100px;
+  height: auto;
+  overflow: hidden;
+}
+
+.wimg {
+  
+  width: 100px;
+  height: 150px;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+  overflow: hidden;
+  opacity: 90%;
+  z-index: 1;
+ 
+}
+
+
+
+.wtext {
+  position: absolute;
+  
+  font-family: 'DM sans', sans-serif;
+  font-weight: 900;
+  font-size: 20px;
+  font-weight: 500;
+  color: rgb(255, 255, 255);
+  z-index: 13;
+  margin-top: 110px;
+}
+
+
+
+.shade {
+  position: absolute;
+  display: flex;
+  justify-content: end;
+  align-items: end;
+  background-color: black;
+  
+  border-radius: 15px;
+  width: 100px;
+  height: 150px;
+  opacity: 90%;
+  background: linear-gradient(to bottom, #00336607, #000000);
+  z-index: 11;
+   overflow: hidden;
+}
+
+.weak-against-text, .strong-against-text {
+  margin-top: 40px;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.weak-against-text {
+  background-color: #fe5d5d7a;
+  width: 220px;
+  border-radius: 5px;
+  margin-left: 30px;
+}
+
+.strong-against-text {
+  background-color: #80fe5d7a;
+  width: 220px;
+  border-radius: 5px;
+  margin-left: 30px;
+}
+
+.wdesc, .sdesc {
+  margin-bottom: 20px;
+}
+
+
+

@@ -1,0 +1,62 @@
+<div class="wimg">
+                      <span class="wtext">Gord</span>
+                      <div class="shade"></div>
+                      <img src="./pfp-icons/Gord.jpg">          
+                    </div>
+                    <div class="wimg">
+                      <span class="wtext">Alice</span>
+                      <div class="shade"></div>
+                      <img src="./pfp-icons/Alice.jpg">
+                    </div>
+                    <div class="wimg">
+                      <span class="wtext">Nana</span> 
+                      <div class="shade"></div>
+                      <img src="./pfp-icons/Nana.jpg">
+                      
+                    </div>
+                    <div class="wimg">
+                      <span class="wtext">Clint</span>
+                      <div class="shade"></div>
+                      <img src="./pfp-icons/Clint_infobox.jpg">
+                      
+                    </div>
+                    <div class="wimg">
+                      <span class="wtext">Zilong</span>
+                      <div class="shade"></div>
+                      <img src="./pfp-icons/Zilong_infobox.jpg">
+                      
+                    </div>
+                  </div>
+
+
+
+
+
+
+
+
+<div class="wimg">
+                      <span class="wtext">Diggie</span>
+                      <div class="shade"></div>
+                      <img src="./pfp-icons/Diggie_infobox.png">          
+                    </div>
+                    <div class="wimg">
+                      <span class="wtext">Odette</span>
+                      <div class="shade"></div>
+                      <img src="./pfp-icons/Odette.png">
+                    </div>
+                    <div class="wimg">
+                      <span class="wtext">Valir</span> 
+                      <div class="shade"></div>
+                      <img src="./pfp-icons/Valir.jpg">                     
+                    </div>
+                    <div class="wimg">
+                      <span class="wtext">Valentina</span>
+                      <div class="shade"></div>
+                      <img src="./pfp-icons/Valentina.jpg">                 
+                    </div>
+                    <div class="wimg">
+                      <span class="wtext">Karrie</span>
+                      <div class="shade"></div>
+                      <img src="./pfp-icons/Karrie_infobox.png">
+                    </div>

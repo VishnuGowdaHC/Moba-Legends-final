@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>MLBB info</title>
+    <link rel="icon" type="image/x-icon" href="../logos/main_logo.png">
+    <link rel="stylesheet" type="text/css" href="./general.css">
+    <link rel="stylesheet" type="text/css" href="./nav-bar.css">
+    <link rel="stylesheet" type="text/css" href="./main.css">
+    
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  </head>
+  <body class="dark-mode">
+    <nav class="nav-bar">
+      <a class="home" href="./index.html"><img src="../logos/home.png"></a>
+      <div class="search">
+        <input class="search-bar js-search-bar" type="text" placeholder="Search">
+       <a href="../page-3/heros.html" onclick="saveSearch()"><img class="search-logo" src="../logos/search.svg"></a> 
+      </div>
+      <div class="toggle">
+        <button class="toggle-button">
+          <img src="../logos/toggle.png">
+        </button>
+      </div>
+    </nav>
+    <div class="container">
+      
+      <div class="base-container">
+        <div class="element-container">
+          
+          <div class="first-col">
+            <div class="imgBlock"><img class="logo" src="../logos/main_logo.png"></div>
+            <button class="hero" onclick="window.location.href='../page-2/heros-selection.html'; selectedRole('Fighter')">
+              <span>Fighter</span>
+              <div class="box"></div>
+              <img class="fighter-img" src="../icons/paquito-mobile-legends.jpg" >           
+            </button>
+          </div>
+          <div class="second-col">
+            <button class="hero" onclick="window.location.href='../page-2/heros-selection.html'; selectedRole('Assassin')">
+              <span>Assassin</span>
+              <div class="box"></div>
+              <img class="assassin-img" src="../icons/gusion.jpg" >
+            </button>
+            <button class="hero" onclick="window.location.href='../page-2/heros-selection.html'; selectedRole('Marksman')">
+              <span>Marksman</span>
+              <div class="box"></div>
+              <img class="marksman-img" src="../icons/beatrix.jpg" >
+            </button>
+          </div>
+          <div class="third-col">
+            <button class="hero" onclick="window.location.href='../page-2/heros-selection.html'; selectedRole('Mage')">
+              <span>Mage</span>
+              <div class="box"></div>
+              <img class="mage-img" src="../icons/Pharsa.webp" >
+            </button>
+            <button class="hero" onclick="window.location.href='../page-2/heros-selection.html'; selectedRole('Tank')">
+              <span>Tank</span>
+              <div class="box"></div>
+              <img class="tank-img" src="../icons/franco.jpg" >
+            </button>
+            <button class="hero" onclick="window.location.href='../page-2/heros-selection.html'; selectedRole('Support')">
+              <span>Support</span>
+              <div class="box"></div>
+              <img class="support-img" src="../icons/diggie.jpg" >
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="../js/toggle.js"></script>
+  <script src="./index.js"></script>
+  
+</html>
