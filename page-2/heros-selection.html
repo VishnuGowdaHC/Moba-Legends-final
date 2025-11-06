@@ -31,7 +31,25 @@
       </div>
     </div>
   </body>
-  
+  <script>
+  (function (w, d, s, o, f, js, fjs) {
+    w["botsonic_widget"] = o;
+    w[o] =
+      w[o] ||
+      function () {
+        (w[o].q = w[o].q || []).push(arguments);
+      };
+    (js = d.createElement(s)), (fjs = d.getElementsByTagName(s)[0]);
+    js.id = o;
+    js.src = f;
+    js.async = 1;
+    fjs.parentNode.insertBefore(js, fjs);
+    })(window, document, "script", "Botsonic", "https://widget.botsonic.com/CDN/botsonic.min.js");
+    Botsonic("init", {
+      serviceBaseUrl: "https://api-bot.writesonic.com",
+      token: "0e8ba30a-9e33-442b-9712-9b82b63e9625",
+    });
+  </script>
   <script src="./JavaScript/data.js"></script>
   <script src="./JavaScript/heros.js"></script>
   <script src="../page-1/index.js"></script>
